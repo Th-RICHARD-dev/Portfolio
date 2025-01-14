@@ -1,0 +1,400 @@
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 90px 90px 90px;
+}
+
+.grid-item {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    outline: 1px solid var(--grey);
+    background-color: var(--light-grey);
+    display: flex;
+    padding: 10px;
+}
+
+.col-1 {
+    grid-column: 1;
+}
+
+.col-2 {
+    grid-column: 2;
+}
+
+.col-3 {
+    grid-column: 3;
+}
+
+.col-4 {
+    grid-column: 4;
+}
+
+.row-1 {
+    height: 135px;
+}
+
+.row-2.col-1 {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 1 / span 4;
+}
+
+.row-2.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-column: 1 / span 3;
+    padding: 0;
+}
+
+.row-2.col-2 .grid {
+    outline: 1px solid var(--grey);
+    background-color: var(--light-grey);
+}
+
+.row-2.col-2 .grid-1 {
+    grid-column: 1 / span 3;
+}
+
+.row-2.col-2 .grid-1 .blinking {
+    animation: blinker 1.5s linear infinite;
+}
+
+.row-2.col-2 {
+    height: auto;
+}
+
+.row-2.col-2 .grid-2 .square-item-1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-2.col-2 .grid-2 .square-item-1 .corners-arrow {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+}
+
+.row-2.col-2 .grid-2 .square-item-1 .corner-arrow-1 {
+    top: 15px;
+    left: 15px;
+    border: solid;
+    border-width: 1px 0 0 1px;
+    border-color: var(--grey);
+}
+
+.row-2.col-2 .grid-2 .square-item-1 .corner-arrow-2 {
+    top: 15px;
+    right: 15px;
+    border: solid;
+    border-width: 1px 1px 0 0;
+    border-color: var(--grey);
+}
+
+.row-2.col-2 .grid-2 .square-item-1 .corner-arrow-3 {
+    bottom: 15px;
+    left: 15px;
+    border: solid;
+    border-width: 0 0 1px 1px;
+    border-color: var(--grey);
+}
+
+.row-2.col-2 .grid-2 .square-item-1 .corner-arrow-4 {
+    bottom: 15px;
+    right: 15px;
+    border: solid;
+    border-width: 0 1px 1px 0;
+    border-color: var(--grey);
+}
+
+.row-2.col-2 .grid-1 .project-title {
+    font-family: 'LABS Amiga';
+    color: var(--midnight);
+    font-size: 3.5em;
+}
+
+.row-2.col-1 .image-container .project-image-alt {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row-3 {
+    height: 70px;
+}
+
+.row-4 {
+    height: 745px;
+}
+
+.row-4.col-1 {
+    grid-column: 1 / span 4;
+    background-color: var(--white);
+}
+
+.row-5 {
+    height: 70px;
+}
+
+.row-6 {
+    height: 175px;
+}
+
+.row-6.col-1 {
+    grid-column: 1 / span 2;
+    display: flex;
+    align-items: center;
+}
+
+.row-6.col-1 p {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.row-6.col-1 p span {
+    color: var(--white);
+    background-color: var(--midnight);
+}
+
+
+.row-6.col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-6.col-3 .arrow_right {
+    height: 50%;
+}
+
+.row-6.col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-6.col-4 .contact-button {
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border: none;
+    border-radius: 30px 10px 30px 10px;
+    padding: 10px 15px;
+    background-color: var(--crimson);
+    cursor: pointer;
+    justify-self: flex-end;
+}
+
+.row-7 {
+    height: 210px;
+}
+
+.row-7.col-1 {
+    padding: 25px 0;
+    flex-direction: column;
+    gap: 7.5px;
+}
+
+.row-7.col-1 a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.row-7.col-1 p:first-child {
+    color: var(--black);
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.row-7.col-2 {
+    padding: 25px 0;
+    flex-direction: column;
+    gap: 7.5px;
+}
+
+.row-7.col-2 p:first-child {
+    color: var(--black);
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.row-7.col-4 {
+    padding: 25px 25px;
+    flex-direction: column;
+    text-align: right;
+    gap: 7.5px;
+}
+
+.row-7.col-4 p {
+    opacity: 0.5;
+    color: var(--grey);
+    text-decoration: underline;
+}
+
+.row-8 {
+    height: 130px;
+}
+
+.row-8.col-1 {
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-8.col-1 p {
+    color: var(--black);
+    opacity: 0.5;
+}
+
+.row-8.col-1 p span {
+    text-decoration: underline;
+}
+
+.row-9 {
+    height: 320px;
+}
+
+.row-9.col-1 {
+    grid-column: 1 / span 4;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-9.col-1 .corners-square {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: var(--crimson);
+}
+
+.row-9.col-1 .corner-square-1 {
+    top: 15px;
+    left: 15px;
+}
+
+.row-9.col-1 .corner-square-2 {
+    top: 15px;
+    right: 15px;
+}
+
+.row-9.col-1 .corner-square-3 {
+    bottom: 15px;
+    left: 15px;
+}
+
+.row-9.col-1 .corner-square-4 {
+    bottom: 15px;
+    right: 15px;
+}
+
+.row-9.col-1 h2 {
+    font-size: 16.5em;
+    font-family: 'LABS Amiga';
+    color: var(--midnight);
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    .row-9,
+    .row-8,
+    .row-7,
+    li,
+    p {
+        font-size: 0.8em;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+    .row-2.col-2 .grid-1 .project-title {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 30px 30px 30px;
+    }
+
+    .col-3 {
+        grid-column: 1;
+    }
+
+    .col-4 {
+        grid-column: 2;
+    }
+
+    .row-1.col-3,
+    .row-1.col-4,
+    .row-3.col-3,
+    .row-3.col-4,
+    .row-5.col-3,
+    .row-5.col-4,
+    .row-6.col-3,
+    .row-7.col-3,
+    .row-7.col-4,
+    .row-8.col-3,
+    .row-8.col-4 {
+        display: none;
+    }
+
+    .row-6.col-1 {
+        grid-column: 1 / span 1;
+    }
+
+    .row-9.col-1 h2 {
+        font-size: 12.5em;
+    }
+
+    .row-2.col-1 {
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        height: auto;
+    }
+
+    .row-2.col-2 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .row-2.col-2 {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .row-2.col-2 .grid-1 .project-title {
+        font-size: 2em;
+    }
+
+    .row-9.col-1 h2 {
+        font-size: 8.5em;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .row-9.col-1 h2 {
+        font-size: 5.5em;
+    }
+
+    .row-2.col-1 {
+        height: 350px;
+    }
+}
