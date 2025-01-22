@@ -357,6 +357,9 @@
     background-color: var(--crimson);
     cursor: pointer;
     justify-self: flex-end;
+    color: var(--black);
+    text-decoration: none;
+    font-size: 0.8em;
 }
 
 .row-9 {
@@ -538,6 +541,10 @@
     border-bottom: 1px solid var(--grey);
     filter: grayscale(100%);
     transition: .5s ease;
+}
+
+.row-10.col-1 .swiper-slide .technologies {
+    color: var(--crimson);
 }
 
 .row-10.col-1 .swiper-slide:hover .project-image {

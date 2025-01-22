@@ -52,7 +52,8 @@ const createProjects = () => {
         const swiperSlide = document.createElement('div');
         swiperSlide.classList.add('swiper-slide');
         swiperSlide.innerHTML = `<p class="project-title">${projectStorage[i].name}</p>
-        <img class="project-image" src="${projectStorage[i].image}" alt="${projectStorage[i].name}"/>`;
+        <img class="project-image" src="${projectStorage[i].image}" alt="${projectStorage[i].name}"/>
+        <p class="technologies">${projectStorage[i].techno}</p>`;
         swiperSlide.setAttribute('data-id', projectStorage[i].id);
         swiperWrapper.appendChild(swiperSlide);
 
