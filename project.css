@@ -71,6 +71,14 @@
 
 .row-2.col-2 .grid-1 {
     grid-column: 1 / span 3;
+    padding: 10px;
+}
+
+.row-2.col-2 .grid-1 .project-title {
+    font-family: 'LABS Amiga';
+    color: var(--midnight);
+    font-size: 4em;
+    margin-bottom: 10px;
 }
 
 .row-2.col-2 .grid-1 .blinking {
@@ -136,7 +144,6 @@
 
 .row-2.col-1 .image-container .project-image-alt {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
@@ -345,6 +352,10 @@
     .row-2.col-2 .grid-1 .project-title {
         font-size: 3em;
     }
+
+    .row-2.col-2 .grid-1 .descr {
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -391,11 +402,19 @@
 
     .row-2.col-2 {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 
     .row-2.col-2 {
         height: auto;
+    }
+    
+    .row-2.col-2 .grid-1 .descr {
+        font-size: 0.7em;
+    }
+
+    .row-2.col-2 .grid-2, .row-2.col-2 .grid-3 {
+        display: none;
     }
 }
 
@@ -407,6 +426,14 @@
     .row-9.col-1 h2 {
         font-size: 8.5em;
     }
+
+    .row-2.col-2 .grid-1 .project-title {
+        font-size: 1.5em;
+    }
+
+    .row-2.col-2 .grid-1 .descr {
+        font-size: 0.65em;
+    }
 }
 
 @media screen and (max-width: 530px) {
@@ -416,5 +443,11 @@
 
     .row-2.col-1 {
         height: 350px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .row-2.col-2 .grid-1 .descr {
+        font-size: 0.5em;
     }
 }

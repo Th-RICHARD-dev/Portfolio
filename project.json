@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "FB Movies",
-        "desc": "Plateforme de notation de film",
+        "desc": "FB Movies est un projet réalisé dans le cadre de mes études, visant à concevoir une plateforme moderne dédiée aux cinéphiles. Ce site permet aux utilisateurs de rechercher des films. L’objectif de cet exercice était de travailler sur l’intégration d’une API externe pour récupérer des données en temps réel (comme les affiches, descriptions et notes de films), ainsi que sur le développement d’une interface utilisateur intuitive et responsive. Ce projet m’a permis d’approfondir mes compétences en développement front-end, en gestion d’API et en design d’expérience utilisateur.",
         "image": "images/fb_movies.png",
         "image_alt": "images/fb_movies_tel.png",
         "video": "",
@@ -10,12 +10,12 @@
     },
     {
         "id": "2",
-        "name": "Projet-2",
-        "desc": "",
-        "image": "",
-        "image_alt": "",
+        "name": "Porsche Club",
+        "desc": "Porsche Club est un projet conçu lors d’un exercice pratique pour simuler la création d’une plateforme dédiée à une communauté spécifique, en l’occurrence les passionnés de la marque Porsche. Ce site inclut une galerie photo, une section événementielle et un espace communautaire fictif, le tout dans un design moderne reflétant l’élégance et l’esthétique de la marque. L’objectif de cet exercice était de mettre en œuvre mes compétences en design web, création d’interfaces responsive et structuration de contenu. Ce projet m’a offert une excellente occasion d’explorer des solutions créatives et de renforcer mes bases en développement web.",
+        "image": "images/porsche_club.png",
+        "image_alt": "images/porsche_club_tel.png",
         "video": "",
-        "techno": []
+        "techno": ["HTML", "CSS", "JS"]
     },
     {
         "id": "3",

@@ -518,6 +518,10 @@
     outline: 1px solid var(--grey);
     margin: 1px;
     cursor: pointer !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .swiper-button-prev:after,
@@ -545,6 +549,7 @@
 
 .row-10.col-1 .swiper-slide .technologies {
     color: var(--crimson);
+    margin-bottom: 10px;
 }
 
 .row-10.col-1 .swiper-slide:hover .project-image {
