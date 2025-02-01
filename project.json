@@ -19,16 +19,16 @@
     },
     {
         "id": "3",
-        "name": "Projet-3",
-        "desc": "",
-        "image": "",
-        "image_alt": "",
+        "name": "Portfolio",
+        "desc": "Mon Portfolio est un projet personnel visant à présenter mes compétences et réalisations en développement web. Ce site inclut une section sur mes projets, mon parcours professionnel, et mes compétences techniques. L'objectif de ce projet était de créer une vitrine professionnelle en ligne, avec une interface utilisateur moderne et responsive, et d'améliorer mes compétences en design web et développement front-end.",
+        "image": "images/portfolio.png",
+        "image_alt": "images/portfolio_tel.png",
         "video": "",
-        "techno": []
+        "techno": ["HTML", "CSS", "JS"]
     },
     {
         "id": "4",
-        "name": "Projet-4",
+        "name": "",
         "desc": "",
         "image": "",
         "image_alt": "",
@@ -37,7 +37,7 @@
     },
     {
         "id": "5",
-        "name": "Projet-5",
+        "name": "",
         "desc": "",
         "image": "",
         "image_alt": "",

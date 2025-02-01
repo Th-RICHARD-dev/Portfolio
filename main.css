@@ -27,6 +27,7 @@
 
 *::selection {
     background-color: var(--crimson);
+    color: var(--midnight);
 }
 
 html, body {
