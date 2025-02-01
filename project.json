@@ -2,41 +2,46 @@
     {
         "id": "1",
         "name": "FB Movies",
-        "desc": "Plateforme de notation de film",
+        "desc": "FB Movies est un projet réalisé dans le cadre de mes études, visant à concevoir une plateforme moderne dédiée aux cinéphiles. Ce site permet aux utilisateurs de rechercher des films. L’objectif de cet exercice était de travailler sur l’intégration d’une API externe pour récupérer des données en temps réel (comme les affiches, descriptions et notes de films), ainsi que sur le développement d’une interface utilisateur intuitive et responsive. Ce projet m’a permis d’approfondir mes compétences en développement front-end, en gestion d’API et en design d’expérience utilisateur.",
         "image": "images/fb_movies.png",
         "image_alt": "images/fb_movies_tel.png",
-        "video": ""
+        "video": "",
+        "techno": ["HTML", "CSS", "JS"]
     },
     {
         "id": "2",
-        "name": "Projet-2",
-        "desc": "",
-        "image": "",
-        "image_alt": "",
-        "video": ""
+        "name": "Porsche Club",
+        "desc": "Porsche Club est un projet conçu lors d’un exercice pratique pour simuler la création d’une plateforme dédiée à une communauté spécifique, en l’occurrence les passionnés de la marque Porsche. Ce site inclut une galerie photo, une section événementielle et un espace communautaire fictif, le tout dans un design moderne reflétant l’élégance et l’esthétique de la marque. L’objectif de cet exercice était de mettre en œuvre mes compétences en design web, création d’interfaces responsive et structuration de contenu. Ce projet m’a offert une excellente occasion d’explorer des solutions créatives et de renforcer mes bases en développement web.",
+        "image": "images/porsche_club.png",
+        "image_alt": "images/porsche_club_tel.png",
+        "video": "",
+        "techno": ["HTML", "CSS", "JS"]
     },
     {
         "id": "3",
-        "name": "Projet-3",
-        "desc": "",
-        "image": "",
-        "image_alt": "",
-        "video": ""
+        "name": "Portfolio",
+        "desc": "Mon Portfolio est un projet personnel visant à présenter mes compétences et réalisations en développement web. Ce site inclut une section sur mes projets, mon parcours professionnel, et mes compétences techniques. L'objectif de ce projet était de créer une vitrine professionnelle en ligne, avec une interface utilisateur moderne et responsive, et d'améliorer mes compétences en design web et développement front-end.",
+        "image": "images/portfolio.png",
+        "image_alt": "images/portfolio_tel.png",
+        "video": "",
+        "techno": ["HTML", "CSS", "JS"]
     },
     {
         "id": "4",
-        "name": "Projet-4",
+        "name": "",
         "desc": "",
         "image": "",
         "image_alt": "",
-        "video": ""
+        "video": "",
+        "techno": []
     },
     {
         "id": "5",
-        "name": "Projet-5",
+        "name": "",
         "desc": "",
         "image": "",
         "image_alt": "",
-        "video": ""
+        "video": "",
+        "techno": []
     }
 ]
