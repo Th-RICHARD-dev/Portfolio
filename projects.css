@@ -1,0 +1,39 @@
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.grid-wrapper {
+    display: grid;
+    margin: 0 90px 90px 90px;
+    padding: 100px 0;
+    border: 1px solid var(--grey);
+}
+
+.project-container {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.grid-item {
+    width: 100%;
+    border: 1px solid var(--grey);
+}
+
+.project-image {
+    width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+    .grid-wrapper {
+        display: grid;
+        margin: 0 30px 30px 30px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+}
