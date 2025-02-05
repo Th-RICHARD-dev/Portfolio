@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+h2 {
+    font-family: 'LABS Amiga';
+    color: var(--midnight);
+    font-size: 3em;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    color: var(--black);
+    font-weight: lighter;
+}
+
+a {
+    margin-top: 100px;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--crimson);
+}
