@@ -28,12 +28,12 @@
     },
     {
         "id": "4",
-        "name": "",
-        "desc": "",
-        "image": "",
-        "image_alt": "",
+        "name": "GeoFocus",
+        "desc": "GeoFocus est une application web interactive développée avec Vue. Ce projet propose une expérience ludique et éducative autour de la géographie mondiale. Les utilisateurs peuvent explorer une liste complète de tous les pays du monde, accompagnée d’informations détaillées pour chacun. L’application intègre également un quiz géographique ainsi qu’un système de progression, permettant de suivre ses avancées et de rendre l’apprentissage plus motivant. Ce projet m’a permis de travailler sur la gestion d’état, l’interactivité avancée et la gamification dans une interface moderne et responsive.",
+        "image": "images/geofocus.png",
+        "image_alt": "images/geofocus_tel.png",
         "video": "",
-        "techno": []
+        "techno": ["VueJS", "NextJS"]
     },
     {
         "id": "5",
