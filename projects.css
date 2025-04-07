@@ -21,10 +21,24 @@ body {
 .grid-item {
     width: 100%;
     border: 1px solid var(--grey);
+    background-color: var(--white);
+}
+
+.project-title {
+    margin: 10px 0;
+    text-align: center;
 }
 
 .project-image {
     width: 100%;
+    border-bottom: 1px solid var(--grey);
+    border-top: 1px solid var(--grey);
+}
+
+.technologies {
+    margin: 5px 0;
+    text-align: center;
+    color: var(--crimson);
 }
 
 @media screen and (max-width: 950px) {
