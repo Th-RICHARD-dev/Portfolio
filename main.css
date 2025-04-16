@@ -180,8 +180,9 @@ body {
 }
 
 .menu-container {
+    padding: 15px;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     position: fixed;
     top: 0;
     left: 0;
@@ -195,14 +196,22 @@ body {
     font-family: 'Roboto Mono', monospace;
     color: var(--black);
     display: none;
+    box-shadow: 0 5px 25px rgba(147, 147, 147, 0.5);
+}
+
+.menu-container .close {
+    color: var(--crimson);
+    text-decoration: underline;
 }
 
 .menu-container .nav-links {
+    margin-top: 15px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    gap: 15px;
 }
 
 .menu-container .nav-links li {

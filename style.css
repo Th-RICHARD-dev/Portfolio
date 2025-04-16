@@ -514,6 +514,7 @@
 }
 
 .swiper-slide {
+    height: auto !important;
     background-color: var(--white);
     outline: 1px solid var(--grey);
     margin: 1px;
@@ -1144,6 +1145,30 @@
 }
 
 @media screen and (max-width: 530px) {
+    .row-7 {
+        height: 100px;
+    }
+
+    .row-9 {
+        height: auto;
+    }
+
+    .row-10 {
+        height: 625px;
+    }
+
+    .row-11 {
+        height: 125px;
+    }
+
+    .row-13 {
+        height: auto;
+    }
+
+    .row-20 {
+        height: 250px;
+    }
+
     .row-20.col-1 h2 {
         font-size: 5.5em;
     }

@@ -55,6 +55,18 @@
     font-size: 1.1em;
 }
 
+.row-2.col-1 .grid-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.row-2.col-1 .grid-4 .link {
+    color: var(--crimson);
+}
+
 .row-2.col-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
