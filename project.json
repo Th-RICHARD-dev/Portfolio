@@ -36,7 +36,7 @@
         "image": "images/geofocus.png",
         "image_alt": "images/geofocus_tel.png",
         "video": "",
-        "techno": ["VueJS", "NextJS", "JS"],
+        "techno": ["VueJS", "JS"],
         "github": "https://github.com/Th-RICHARD-dev/GeoFocus"
     },
     {
