@@ -41,12 +41,12 @@
     },
     {
         "id": "5",
-        "name": "",
-        "desc": "",
-        "image": "",
-        "image_alt": "",
+        "name": "Satisfactory",
+        "desc": "Satisfactory est mon tout premier projet en développement web, réalisé avec HTML, CSS et JavaScript. Ce projet m'a permis de découvrir les bases de la création de sites web, en travaillant sur la structure, le style et l'interactivité. Bien que simple, ce projet a été une étape importante dans mon apprentissage, me donnant une première expérience pratique et me motivant à approfondir mes compétences en développement front-end.",
+        "image": "images/satisfactory.png",
+        "image_alt": "images/satisfactory_tel.png",
         "video": "",
-        "techno": [],
-        "github": ""
+        "techno": ["HTML", "CSS", "JS"],
+        "github": "https://github.com/Th-RICHARD-dev/Satisfactory"
     }
 ]
