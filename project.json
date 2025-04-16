@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "name": "FB Movies",
+        "desc": "FB Movies est un projet réalisé dans le cadre de mes études, visant à concevoir une plateforme moderne dédiée aux cinéphiles. Ce site permet aux utilisateurs de rechercher des films. L’objectif de cet exercice était de travailler sur l’intégration d’une API externe pour récupérer des données en temps réel (comme les affiches, descriptions et notes de films), ainsi que sur le développement d’une interface utilisateur intuitive et responsive. Ce projet m’a permis d’approfondir mes compétences en développement front-end, en gestion d’API et en design d’expérience utilisateur.",
+        "image": "images/fb_movies.png",
+        "image_alt": "images/fb_movies_tel.png",
+        "video": "",
+        "techno": ["HTML", "CSS", "JS"],
+        "github": "https://github.com/Th-RICHARD-dev/FB-Movies"
+    },
+    {
+        "id": "2",
+        "name": "Porsche Club",
+        "desc": "Porsche Club est un projet conçu lors d’un exercice pratique pour simuler la création d’une plateforme dédiée à une communauté spécifique, en l’occurrence les passionnés de la marque Porsche. Ce site inclut une galerie photo, une section événementielle et un espace communautaire fictif, le tout dans un design moderne reflétant l’élégance et l’esthétique de la marque. L’objectif de cet exercice était de mettre en œuvre mes compétences en design web, création d’interfaces responsive et structuration de contenu. Ce projet m’a offert une excellente occasion d’explorer des solutions créatives et de renforcer mes bases en développement web.",
+        "image": "images/porsche_club.png",
+        "image_alt": "images/porsche_club_tel.png",
+        "video": "",
+        "techno": ["HTML", "CSS", "JS"],
+        "github": "https://github.com/Th-RICHARD-dev/Porsche-Club"
+    },
+    {
+        "id": "3",
+        "name": "Portfolio",
+        "desc": "Mon Portfolio est un projet personnel visant à présenter mes compétences et réalisations en développement web. Ce site inclut une section sur mes projets, mon parcours professionnel, et mes compétences techniques. L'objectif de ce projet était de créer une vitrine professionnelle en ligne, avec une interface utilisateur moderne et responsive, et d'améliorer mes compétences en design web et développement front-end.",
+        "image": "images/portfolio.png",
+        "image_alt": "images/portfolio_tel.png",
+        "video": "",
+        "techno": ["HTML", "CSS", "JS"],
+        "github": "https://github.com/Th-RICHARD-dev/Portfolio"
+    },
+    {
+        "id": "4",
+        "name": "GeoFocus",
+        "desc": "GeoFocus est une application web interactive développée avec Vue. Ce projet propose une expérience ludique et éducative autour de la géographie mondiale. Les utilisateurs peuvent explorer une liste complète de tous les pays du monde, accompagnée d’informations détaillées pour chacun. L’application intègre également un quiz géographique ainsi qu’un système de progression, permettant de suivre ses avancées et de rendre l’apprentissage plus motivant. Ce projet m’a permis de travailler sur la gestion d’état, l’interactivité avancée et la gamification dans une interface moderne et responsive.",
+        "image": "images/geofocus.png",
+        "image_alt": "images/geofocus_tel.png",
+        "video": "",
+        "techno": ["VueJS", "NextJS", "JS"],
+        "github": "https://github.com/Th-RICHARD-dev/GeoFocus"
+    },
+    {
+        "id": "5",
+        "name": "",
+        "desc": "",
+        "image": "",
+        "image_alt": "",
+        "video": "",
+        "techno": [],
+        "github": ""
+    }
+]

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Thomas Richard</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://kit.fontawesome.com/b7e32cfef9.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="nav-bar">
+      <div class="containers container-1">
+        <a href=""><img src="images/logo.png" alt="TR logo" class="logo"></a>
+      </div>
+      <div class="containers container-2">
+        <i class="fa-solid fa-bars menu"></i>
+        <ul class="nav-links">
+          <li class="nav-link"><a class="hover-effect" href="#home">Accueil</a></li>
+          <li class="nav-link"><a class="hover-effect" href="#about">À Propos</a></li>
+          <li class="nav-link"><a class="hover-effect" href="#projects">Projets</a></li>
+          <li class="nav-link"><a class="hover-effect" href="#career">Parcours</a></li>
+          <li class="nav-link"><a class="hover-effect" href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="containers container-3">
+        <p><i class="fa-solid fa-hexagon-nodes"></i> <span>Thomas Richard</span></p>
+        <button class="cv-button" type="button">ᴄᴜʀʀɪᴄᴜʟᴜᴍ ᴠɪᴛᴀᴇ</button>
+      </div>
+    </div>
+    <div class="nav-bar-border"></div>
+  </header>
+
+  <div class="menu-container">
+    <div class="close"><p>Fermer</p></div>
+    <ul class="nav-links">
+      <li class="nav-link"><a class="hover-effect" href="#home">Accueil</a></li>
+      <li class="nav-link"><a class="hover-effect" href="#about">À Propos</a></li>
+      <li class="nav-link"><a class="hover-effect" href="#projects">Projets</a></li>
+      <li class="nav-link"><a class="hover-effect" href="#career">Parcours</a></li>
+      <li class="nav-link"><a class="hover-effect" href="#contacts">Contacts</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <div id="home" class="grid-wrapper">
+      <div class="grid-item row-1 col-1"></div>
+      <div class="grid-item row-1 col-2"></div>
+      <div class="grid-item row-1 col-3"></div>
+      <div class="grid-item row-1 col-4"></div>
+
+      <div class="grid-item row-2 col-1 template">
+        <div class="corners-square corner-square-1"></div>
+        <div class="corners-square corner-square-2"></div>
+        <div class="corners-square corner-square-3"></div>
+        <div class="corners-square corner-square-4"></div>
+        <div class="marquee-wrapper">
+          <div class="marquee">développeur web</div>
+          <div class="marquee">développeur web</div>
+        </div>
+      </div>
+
+      <div class="grid-item row-3 col-1"></div>
+      <div class="grid-item row-3 col-2"></div>
+      <div class="grid-item row-3 col-3"></div>
+      <div class="grid-item row-3 col-4">
+        <div class="square-item-1">
+          <div class="corners-arrow corner-arrow-1"></div>
+          <div class="corners-arrow corner-arrow-2"></div>
+          <div class="corners-arrow corner-arrow-3"></div>
+          <div class="corners-arrow corner-arrow-4"></div>
+          <img src="images/tag.png" alt="tag html 3d">
+        </div>
+      </div>
+
+      <div class="grid-item row-4 col-1">
+        <img src="images/arrow_down.png" alt="flèche bas">
+      </div>
+      <div class="grid-item row-4 col-2">
+        <img src="images/arrow_down.png" alt="flèche bas">
+      </div>
+      <div class="grid-item row-4 col-3">
+        <img src="images/arrow_down.png" alt="flèche bas">
+      </div>
+      <div class="grid-item row-4 col-4">
+        <img src="images/arrow_down.png" alt="flèche bas">
+      </div>
+
+      <div class="grid-item row-5 col-1"></div>
+      <div class="grid-item row-5 col-2"></div>
+      <div class="grid-item row-5 col-3"></div>
+      <div class="grid-item row-5 col-4"></div>
+
+      <div class="grid-item row-6 col-1">
+        <h2 id="about" class="about">à propos</h2>
+      </div>
+      <div class="grid-item row-6 col-3"></div>
+      <div class="grid-item row-6 col-4">
+        <div class="square-item-2">
+          <div class="corners-arrow corner-arrow-1"></div>
+          <div class="corners-arrow corner-arrow-2"></div>
+          <div class="corners-arrow corner-arrow-3"></div>
+          <div class="corners-arrow corner-arrow-4"></div>
+        </div>
+      </div>
+
+      <div class="grid-item row-7 col-1">
+        <ul>
+          <li class="pres-1">
+            Bonjour, <br>
+            Je m’appelle Thomas Richard
+          </li>
+        </ul>
+      </div>
+      <div class="grid-item row-7 col-2"></div>
+      <div class="grid-item row-7 col-3"></div>
+      <div class="grid-item row-7 col-4">
+        <ul>
+          <li class="pres-2">
+            Mes Langages maîtrisés
+          </li>
+        </ul>
+      </div>
+
+      <div class="grid-item row-8 col-1">
+        <p class="pres-3">
+          J’ai 18 ans et je suis passionné par l’informatique, la technologie et l’automobile.
+          <br>
+          <br>
+          Je suis en 1ère année de DN MADE Mention Numérique.
+        </p>
+      </div>
+      <div class="grid-item row-8 col-2"></div>
+      <div class="grid-item row-8 col-3"></div>
+      <div class="grid-item row-8 col-4">
+        <div class="lang-item lang-1">
+          <div class="corners-arrow corner-arrow-1"></div>
+          <div class="corners-arrow corner-arrow-2"></div>
+          <div class="corners-arrow corner-arrow-3"></div>
+          <div class="corners-arrow corner-arrow-4"></div>
+          <p><i class="fa-brands fa-html5"></i> HTML/CSS</p>
+        </div>
+        <div class="lang-item lang-2">
+          <div class="corners-arrow corner-arrow-1"></div>
+          <div class="corners-arrow corner-arrow-2"></div>
+          <div class="corners-arrow corner-arrow-3"></div>
+          <div class="corners-arrow corner-arrow-4"></div>
+          <p><i class="fa-brands fa-js"></i> JavaScript</p>
+        </div>
+        <div class="lang-item lang-3">
+          <div class="corners-arrow corner-arrow-1"></div>
+          <div class="corners-arrow corner-arrow-2"></div>
+          <div class="corners-arrow corner-arrow-3"></div>
+          <div class="corners-arrow corner-arrow-4"></div>
+          <p><i class="fa-brands fa-php"></i></i> PHP</p>
+        </div>
+        <div class="lang-item lang-4">
+          <div class="corners-arrow corner-arrow-1"></div>
+          <div class="corners-arrow corner-arrow-2"></div>
+          <div class="corners-arrow corner-arrow-3"></div>
+          <div class="corners-arrow corner-arrow-4"></div>
+          <p><i class="fa-brands fa-python"></i> Python</p>
+        </div>
+        <div class="button-container">
+          <a class="contact-button" href="#contacts">me contacter</a>
+        </div>
+      </div>
+
+      <div class="grid-item row-9 col-1">
+        <div class="square-item-3">
+          <div class="corners-arrow corner-arrow-1"></div>
+          <div class="corners-arrow corner-arrow-2"></div>
+          <div class="corners-arrow corner-arrow-3"></div>
+          <div class="corners-arrow corner-arrow-4"></div>
+        </div>
+      </div>
+      <div class="grid-item row-9 col-2"></div>
+      <div class="grid-item row-9 col-3">
+        <h2 id="projects" class="projects">mes<br>projets</h2>
+      </div>
+
+      <div class="grid-item row-10 col-1">
+        <div class="all-projects">
+          <a href="projects.html">
+            <div class="other">
+              <p>Tous les projets</p>
+              <h2>n/a</h2>
+            </div>
+            <div class="arrow">-></div>
+          </a>
+        </div>
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"></div>
+          </div>
+        </div>
+        
+        <div class="button-next-prev-container">
+          <div class="swiper-button-prev"><</div>
+          <div class="swiper-button-next">></div>
+        </div>
+
+      </div>
+      <div class="grid-item row-10 col-2"></div>
+      <div class="grid-item row-10 col-3"></div>
+      <div class="grid-item row-10 col-4"></div>
+
+      <div class="grid-item row-11 col-1">
+        <h2 id="career" class="projects">mon<br>parcours</h2>
+      </div>
+      <div class="grid-item row-11 col-3">
+        <div class="square-item-3">
+          <div class="corners-arrow corner-arrow-1"></div>
+          <div class="corners-arrow corner-arrow-2"></div>
+          <div class="corners-arrow corner-arrow-3"></div>
+          <div class="corners-arrow corner-arrow-4"></div>
+        </div>
+      </div>
+      <div class="grid-item row-11 col-4"></div>
+
+      <div class="grid-item row-12 col-1"></div>
+      <div class="grid-item row-12 col-2"></div>
+      <div class="grid-item row-12 col-3"></div>
+      <div class="grid-item row-12 col-4"></div>
+
+      <div class="grid-item row-13 col-1">
+        <div class="formation form-1">
+          <ul>
+            <li class="pres-1">DN MADE / L'École by CCI Annecy Mention Numérique</li>
+          </ul>
+        </div>
+        <div class="formation form-2">
+          <ul>
+            <li class="pres-2">Filière Général / Lycée Guillaume Fichet Bonneville Spécialitées Mathématiques - NSI</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid-item row-13 col-2">
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler filler-center"><img src="images/circuit.svg" alt="circuit f1" class="circuit"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+      </div>
+
+      <div class="grid-item row-14 col-1"></div>
+      <div class="grid-item row-14 col-2"></div>
+      <div class="grid-item row-14 col-3"></div>
+      <div class="grid-item row-14 col-4"></div>
+
+      <div class="grid-item row-15 col-1"></div>
+      <div class="grid-item row-15 col-2"></div>
+      <div class="grid-item row-15 col-3">
+        <h2 id="contacts" class="contacts">contacts</h2>
+      </div>
+
+      <div class="grid-item row-16 col-1">
+        <img src="images/logo.png" alt="TR logo">
+      </div>
+      <div class="grid-item row-16 col-2">
+        <form id="contactForm" class="form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="fe889721-219b-4a25-919a-14879927b64e">
+          <legend>Contactez moi par mail :</legend>
+          <input type="text" name="name" id="name" placeholder="Nom" required />
+          <input type="email" name="email" id="email" placeholder="Email" required />
+          <input type="message" name="message" id="message" placeholder="Message" required></input>
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          <input type="hidden" name="redirect" value="https://th-richard-portfolio.vercel.app/success.html">
+        </form>
+      </div>
+      <div class="grid-item row-16 col-4">
+        <div class="filler"></div>
+        <div class="filler">
+          <button class="send-form" type="button" onclick="document.getElementById('contactForm').submit();">envoyer</button>
+        </div>
+        <div class="filler"></div>
+      </div>
+
+      <div class="grid-item row-17 col-1">
+        <div class="socials-wrapper">
+          <p>Ou via mes réseaux :</p>
+          <div class="socials">
+            <a href="https://github.com/Th-RICHARD-dev" target="_blank" class="social github"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/in/th-richard-dev/" target="_blank" class="social linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="" target="_blank" class="social instagram"><i class="fa-brands fa-square-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item row-17 col-2"></div>
+      <div class="grid-item row-17 col-3"></div>
+      <div class="grid-item row-17 col-4">
+        <div class="square-item-4">
+          <div class="corners-arrow corner-arrow-1"></div>
+          <div class="corners-arrow corner-arrow-2"></div>
+          <div class="corners-arrow corner-arrow-3"></div>
+          <div class="corners-arrow corner-arrow-4"></div>
+        </div>
+      </div>
+
+      <div class="grid-item row-18 col-1">
+        <p>lien rapide</p>
+        <p><a href="index.html">Accueil</a></p>
+        <p><a href="projects.html">Projets</a></p>
+      </div>
+      <div class="grid-item row-18 col-2">
+        <p>Thomas richard</p>
+        <p>Curriculum vitae</p>
+      </div>
+      <div class="grid-item row-18 col-3"></div>
+      <div class="grid-item row-18 col-4">
+        <a href="https://github.com/Th-RICHARD-dev" target="_blank"><p>Github ↗</p></a>
+        <a href="https://www.linkedin.com/in/th-richard-dev/" target="_blank"><p>Linkedin ↗</p></a>
+        <a href=""><p>Instagram ↗</p></a>
+      </div>
+
+      <div class="grid-item row-19 col-1">
+        <p>Site créer par <span>Thomas Richard</span></p>
+      </div>
+      <div class="grid-item row-19 col-3"></div>
+      <div class="grid-item row-19 col-4"></div>
+
+      <div class="grid-item row-20 col-1">
+        <h2>TR74</h2>
+        <div class="corners-square corner-square-1"></div>
+        <div class="corners-square corner-square-2"></div>
+        <div class="corners-square corner-square-3"></div>
+        <div class="corners-square corner-square-4"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
