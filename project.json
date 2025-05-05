@@ -48,5 +48,14 @@
         "video": "",
         "techno": ["HTML", "CSS", "JS"],
         "github": "https://github.com/Th-RICHARD-dev/Satisfactory"
+    },
+    {
+        "id": "6",
+        "name": "reso",
+        "desc": "Reso est un projet de réseau social développé en PHP. Ce projet avait pour objectif de simuler les fonctionnalités principales d'une plateforme sociale, telles que la création de profils, la publication de contenu et l'interaction entre utilisateurs. Il m'a permis de renforcer mes compétences en développement backend, en gestion de bases de données et en création de fonctionnalités dynamiques. Reso représente une étape clé dans mon apprentissage des technologies côté serveur.",
+        "image": "images/reso.png",
+        "image_alt": "images/reso_tel.png",
+        "techno": ["PHP"],
+        "github": "https://github.com/SachaBouk/reso"
     }
 ]
