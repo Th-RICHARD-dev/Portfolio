@@ -275,7 +275,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 25%;
+    padding: 0 15%;
 }
 
 .row-8.col-1 .pres-3 {
@@ -920,6 +920,10 @@
     color: var(--black);
     text-transform: uppercase;
     opacity: 0.5;
+}
+
+.row-18.col-2 .cv-button {
+    cursor: pointer;
 }
 
 .row-18.col-4 {
