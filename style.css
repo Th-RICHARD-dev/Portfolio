@@ -645,7 +645,13 @@
     display: flex;
     flex-direction: column;
     padding: 0;
-    background-color: var(--midnight);
+    background: repeating-linear-gradient(
+        -45deg,
+        var(--midnight),
+        var(--midnight) 10px,
+        var(--light-grey) 10px,
+        var(--light-grey) 20px
+    );
 }
 
 .row-13.col-1 .formation {
@@ -672,6 +678,12 @@
 }
 
 .row-13.col-1 .pres-2 {
+    list-style-type: square;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.row-13.col-1 .pres-3 {
     list-style-type: square;
     text-align: left;
     font-size: 0.9em;
@@ -1099,6 +1111,10 @@
         grid-column: 1 / span 2;
     }
 
+    .row-11.col-3, .row-11.col-4 {
+        height: 100px;
+    }
+
     .row-13.col-2 {
         grid-column: 1 / span 2;
     }
@@ -1116,8 +1132,8 @@
     }
 
     .row-13.col-1 {
-        grid-column: 1 / span 2;
-        height: 200px;
+        grid-column: 1 / span 3;
+        height: 300px;
         flex-direction: column;
     }
 
@@ -1126,6 +1142,10 @@
     }
 
     .row-13.col-1 .form-2 {
+        padding: 5%;
+    }
+
+    .row-13.col-1 .form-3 {
         padding: 5%;
     }
 
@@ -1178,6 +1198,10 @@
         height: auto;
     }
 
+    .row-13.col-1 {
+        height: 200px;
+    }
+
     .row-20 {
         height: 250px;
     }
@@ -1191,6 +1215,7 @@
     .row-8.col-1 .pres-3,
     .row-13.col-1 .pres-1,
     .row-13.col-1 .pres-2,
+    .row-13.col-1 .pres-3,
     li,
     p {
         font-size: 0.65em;
